@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = MyWorkoutPal
+build_property.ProjectDir = /home/sebastien/Desktop/MyWorkoutPal/
+
+[/home/sebastien/Desktop/MyWorkoutPal/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/home/sebastien/Desktop/MyWorkoutPal/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/home/sebastien/Desktop/MyWorkoutPal/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/home/sebastien/Desktop/MyWorkoutPal/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/home/sebastien/Desktop/MyWorkoutPal/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/home/sebastien/Desktop/MyWorkoutPal/Views/MyExercicesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.Views.MyExercicesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/MyExercicesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/MyExercicesPage.xaml
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/css/site.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.css.site.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/css/site.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/css/site.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-grid.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-grid.min.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-grid.rtl.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-grid.rtl.min.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-reboot.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-reboot.min.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-reboot.rtl.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-reboot.rtl.min.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-utilities.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-utilities.min.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-utilities.rtl.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap-utilities.rtl.min.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap.min.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap.rtl.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css
+
+[/home/sebastien/Desktop/MyWorkoutPal/WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = MyWorkoutPal.WorkoutApi.wwwroot.lib.bootstrap.dist.css.bootstrap.rtl.min.css
+build_metadata.AdditionalFiles.TargetPath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css
+build_metadata.AdditionalFiles.RelativePath = WorkoutApi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css
