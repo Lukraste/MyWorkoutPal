@@ -18,6 +18,8 @@ namespace MyWorkoutPal.Services
 
         public DataService(HttpClient httpClient)
         {
+            // Définition de l'url de la requête HTTP pour l'utilisation de l'API
+
             _httpClient = httpClient;
             _baseAddress = DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:5272" : "https://localhost:7272";
             _url = $"{_baseAddress}/api/exercices";
@@ -28,11 +30,13 @@ namespace MyWorkoutPal.Services
             };
         }
 
+        // Méthode asynchrone pour ajouter un exercice via POST (API)
+
         public async Task AddExerciceAsync(Exercice exercice)
         {
             if (Connectivity.Current.NetworkAccess != NetworkAccess.Internet)
             {
-                Debug.WriteLine("---> No internet access...");
+                Debug.WriteLine("Pas de connexion internet..");
                 return;
             }
             try
@@ -43,25 +47,27 @@ namespace MyWorkoutPal.Services
 
                 if(response.IsSuccessStatusCode)
                 {
-                    Debug.WriteLine("Successfully created Exercice");
+                    Debug.WriteLine("Exercice créé avec succès");
                 }
                 else
                 {
-                    Debug.WriteLine("---> Non Http 2xx response");
+                    Debug.WriteLine("Pas de réponse Http");
                 }
             }
             catch(Exception ex)
             {
-                Debug.WriteLine($"Whoops exception: {ex.Message}");
+                Debug.WriteLine($"Exception: {ex.Message}");
             }
             return;
         }
+
+        // Méthode asynchrone pour supprimer un exercice via DELETE (API)
 
         public async Task DeleteExerciceAsync(int id)
         {
             if (Connectivity.Current.NetworkAccess != NetworkAccess.Internet)
             {
-                Debug.WriteLine("---> No internet access...");
+                Debug.WriteLine("Pas de connexion internet.");
                 return;
             }
             try
@@ -70,19 +76,21 @@ namespace MyWorkoutPal.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    Debug.WriteLine("Successfully created Exercice");
+                    Debug.WriteLine("Exercice supprimé avec succès");
                 }
                 else
                 {
-                    Debug.WriteLine("---> Non Http 2xx response");
+                    Debug.WriteLine("Pas de réponse Http");
                 }
             }
             catch(Exception ex)
             {
-                Debug.WriteLine($"Whoops exception: {ex.Message}");
+                Debug.WriteLine($"Exception: {ex.Message}");
             }
             return;
         }
+
+        // Méthode asynchrone pour récupérer tous les exercices via GET (API)
 
         public async Task<List<Exercice>> GetAllExercicesAsync()
         {
@@ -90,7 +98,7 @@ namespace MyWorkoutPal.Services
 
             if(Connectivity.Current.NetworkAccess != NetworkAccess.Internet)
             {
-                Debug.WriteLine("---> No internet access...");
+                Debug.WriteLine("Pas de connexion internet..");
                 return exercices;
             }
             try
@@ -105,25 +113,26 @@ namespace MyWorkoutPal.Services
                 }
                 else
                 {
-                    Debug.WriteLine("---> Non Http 2xx response");
+                    Debug.WriteLine("Pas de réponse Http");
                 }
             }
             catch(Exception ex)
             {
-                Debug.WriteLine($"Whoops exception: {ex.Message}");
+                Debug.WriteLine($"Exception: {ex.Message}");
             }
 
             return exercices;
         }
 
+        // Méthode asynchrone pour mettre à jour un exercice un exercice via PUT (API)
+
         public async Task UpdateExerciceAsync(Exercice exercice)
         {
             if (Connectivity.Current.NetworkAccess != NetworkAccess.Internet)
             {
-                Debug.WriteLine("---> No internet access...");
+                Debug.WriteLine("Pas de connexion internet..");
                 return;
             }
-
             try
             {
                 string jsonExercice = JsonSerializer.Serialize<Exercice>(exercice, _jsonSerializerOptions);
@@ -132,18 +141,17 @@ namespace MyWorkoutPal.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    Debug.WriteLine("Successfully created ToDo");
+                    Debug.WriteLine("Exercice mit à jour avec succès");
                 }
                 else
                 {
-                    Debug.WriteLine("---> Non Http 2xx response");
+                    Debug.WriteLine("Pas de réponse Http");
                 }
             }
             catch (Exception ex)
             {
-                Debug.WriteLine($"Whoops exception: {ex.Message}");
+                Debug.WriteLine($"Exception: {ex.Message}");
             }
-
             return;
         }
     }

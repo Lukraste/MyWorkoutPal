@@ -40,13 +40,10 @@ public partial class MyExercicesPage : ContentPage
 	{
 		if (_isNew)
 		{
-			Debug.WriteLine("---> Add new Item");
 			await _dataService.AddExerciceAsync(Exercice);
-
 		}
 		else
 		{
-            Debug.WriteLine("---> Update an Item");
             await _dataService.UpdateExerciceAsync(Exercice);
         }
         await Shell.Current.GoToAsync("..");
